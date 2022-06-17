@@ -15,6 +15,7 @@
     </head>
     <body>
     <header>
+        <h1 class="text-center">Comics</h1>
      <nav class="nav justify-content-center">
        <a class="nav-link active" href="#">Active link</a>
        <a class="nav-link" href="#">Link</a>
