@@ -15,19 +15,14 @@
     </head>
     <body>
     <header>
-
+     <nav class="nav justify-content-center">
+       <a class="nav-link active" href="#">Active link</a>
+       <a class="nav-link" href="#">Link</a>
+       <a class="nav-link disabled" href="#">Comics</a>
+     </nav>
     </header>
 
      <main>
-     <div class="container d-flex  ">
-        <img src="{{$comic->thumb}}" alt="" class="">
-        <h1>{{$comic->title}}</h1>
-        <h4>Price: {{$comic->price}} €</h4>
-        <h5>Sale Date: {{$comic->sale_date}}</h5>
-        <h5>Series: {{$comic->series}}</h5>
-        <p>Description: {{$comic->description}}</p>
-        
-    </div>
      @yield('content')
      </main>
 

@@ -19,5 +19,7 @@ Route::get('/', function () {
 Route::get('/app', function () {
     return view('app');
 });
+//Route::get('/comics/{comic}', 'ComicController@show')->name('comics.show');
+//Route::get('/comics', 'ComicController@index')->name('comics.index');
 
 Route::resource('comics', 'ComicController');
